@@ -35,14 +35,14 @@ switch ($operation){
 <img src="<?=$img?>"/>
 <form>
  <p><b>Калькулятор</b></p>
- <p><input required type="text" name="number1">
+ <p><input required type="number" name="number1">
  <select name="operation">
 <option value="+">Сложение</option>
 <option value="*">Умножение</option>
 <option value="-">Вычитание</option>
 <option value="/">Деление</option>
 </select>
-<input required type="text" name="number2"></p>
+<input required type="number" name="number2"></p>
  <p><input type="submit"></p>
 </form>
 <?php
